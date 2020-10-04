@@ -1,5 +1,4 @@
 """
-Caleb Ellington
 Adapted from https://github.com/xunzheng/notears/blob/master/notears/utils.py
 """
 
