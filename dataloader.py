@@ -1,14 +1,14 @@
 import numpy as np
 
 import utils
-utils.set_random_seed(1)
+utils.set_random_seed(5)
 
-n = 200     # samples
-n_i = 6   # data points (X) per sample
-d = 6      # DAG vertices
-s0 = 6     # DAG edges
+n = 1000     # samples
+n_i = 8   # data points (X) per sample
+d = 8      # DAG vertices
+s0 = 8     # DAG edges
 e = 20      # epigenetic markers
-k = 2       # archetypes
+k = 4       # archetypes
 
 
 graph_type, sem_type = 'ER', 'gauss'
